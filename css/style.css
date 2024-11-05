@@ -1,0 +1,58 @@
+.bg-image-1 {
+    background-image: url('../img/banner-bg.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+}
+
+.bg-image-2 {
+    background-image: url('../img/services-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.bg-image-3 {
+    background-image: url('../img/cvcv-min.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-image-4 {
+    background-image: url('../img/gfgfggfggg-min.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bg-shadow-danger {
+    background-color: rgba(216, 18, 18, 0.623);
+}
+.bg-shadow-dark {
+    background-color: rgba(59, 15, 15, 0.432);
+}
+.bg-shadow-info {
+    background-color: rgba(0, 204, 255, 0.623);
+}
+.bg-dark-2 {
+    background-color: rgb(34, 59, 80);
+}
+
+
+.box {
+    background-color: #f9f9f9;
+    
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.box:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    background-color: #e74c3c;
+    color: white;
+}
